@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Mock-Target-API">
+    <Basepaths>/mock-target-api</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1513895724478</CreatedAt>
+    <CreatedBy>ssvaidyanathan@apigee.com</CreatedBy>
+    <Description>OpenAPI Specification for the Apigee mock target service endpoint.</Description>
+    <DisplayName>Mock-Target-API</DisplayName>
+    <LastModifiedAt>1513895724478</LastModifiedAt>
+    <LastModifiedBy>ssvaidyanathan@apigee.com</LastModifiedBy>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec>https://raw.githubusercontent.com/apigee/api-platform-samples/master/default-proxies/helloworld/openapi/mocktarget.yaml</Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
